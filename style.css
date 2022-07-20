@@ -170,7 +170,7 @@ footer {
 .footer{
     
     /* height: 445px; */
-    max-width: 1280px;
+    /* max-width: 1280px; */
     /* border: red 2px solid; */
     margin: 0 auto;
     padding-bottom: 50px;
@@ -263,7 +263,13 @@ footer {
     }
     
     footer{
-        width: 576px;
+        width: 100vw;
+    }
+    .footer{
+        width: 100vw;
+    }
+    .footer > p{
+        width: 100vw;
     }
 
 
