@@ -1,14 +1,20 @@
 /* font family */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
-/* icon style */
-/* .fa-play {
-    margin-left: 10px;
-} */
+/* icon style  */
+
+ .fa-play {
+    margin-left: 5px;
+} 
 
 .fa-clock, .fa-message {
     color: rgb(22, 22, 22, 0.8);
     margin-right: 15px;
+}
+.fa-brands {
+    color: white;
+    font-size: 25px;
+
 }
 
 
@@ -198,10 +204,17 @@ footer {
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 25px;
 }
 .footer-link > a {
     color: white;
     text-decoration: none;
+}
+
+.social-icon{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
 }
 
 
