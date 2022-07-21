@@ -101,11 +101,16 @@ header{
     padding: 10px 20px;
     border-radius: 10px;
     font-size: 20px;
-    display: flex;
-    justify-content: center;
-    /* text-align: center; */
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
 
 }
+.blogs-list > nav > div > .btn-select{
+    background-color: #DD0000;
+    color: white;
+}
+
 
 /* ****************blogs-list style**************** */
 
@@ -173,7 +178,7 @@ footer {
     /* max-width: 1280px; */
     /* border: red 2px solid; */
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .footer > p {
@@ -285,7 +290,98 @@ footer {
 
 }
 
+@media screen and (min-width: 580px) and (max-width: 1023px){
 
+    .hero-section{
+        width: 100vw;
+        height: 100vh;
+    }
+    .hero-section-title {
+        width: 50%;
+        padding: 0px;
+        margin: 0px;
+        height: 100%;
+        margin-left: 20px;
+    }
+
+    .hero-section-title > h1{
+        font-size: 40px;
+        padding-top: 50px;
+    }
+
+    .hero-img {
+        width: 50%;
+        
+    }
+    .hero-img > img {
+        width: 100%;
+    }
+
+    .blogs-list{
+        flex-direction: column;
+    }
+
+    .blogs-list > article {
+        grid-template-columns: 357px 357px;
+        /* margin: 0px auto; */
+        justify-content: center;
+        /* grid-auto-flow: dense; */
+        column-gap: 0px;
+    }
+    .card-header-img > img {
+        width: 100%;
+    }
+
+    /* .grid-blogs-list {
+        margin: 0 auto;
+    } */
+
+    .blogs-list > nav {
+        margin: 0 auto;
+        width: 714px;
+        height: 170px;
+        /* margin-bottom: 50px; */
+        /* border: #161616 solid 1px; */
+        background-color: transparent;
+    }
+
+    .blogs-list > nav > div {
+        flex-direction: row;
+        gap: 22px;
+    }
+
+    .blogs-list > nav > div > a{
+        padding: 0px;
+        width: 230px;
+        height: 64px;
+        box-sizing: border-box;
+        padding-top: 17px;
+        border: rgba(232, 232, 232, 1) solid 1px;
+    }
+
+    .blogs-list > article > div {
+        width: 335px;
+        margin: 0 auto;
+    }
+    
+    footer{
+        width: 100vw;
+    }
+    .footer{
+        width: 100vw;
+    }
+    .footer > p{
+        width: 100vw;
+    }
+
+    .footer-link {
+        flex-wrap: wrap;
+    }
+
+
+
+    
+}
 
 
 
